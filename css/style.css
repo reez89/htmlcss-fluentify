@@ -24,12 +24,12 @@
 }
 
 #site_content{
-  height: 600px;
+  height: 800px;
 }
 
 
 #site_footer{
-  height: 150px;
+  height: 100px;
 }
 
 body{
@@ -53,14 +53,12 @@ body{
   margin-bottom: 20px;
   float: left;
   width: 33.33%;
-  height: 100%;
 }
 
 
 .col_2{
   float: left;
   width: 50%;
-  height: 100%;
 }
 
 
@@ -165,11 +163,11 @@ body{
   text-align: center;
 }
 .row_up, .row_down{
-  height: 275px;
+  height: 400px;
 }
 
 .maintxt h4{
-  line-height: 40px;x
+  line-height: 40px;
   color: gray;
 }
 /* INIZIO MAIN */
@@ -177,6 +175,14 @@ body{
 .hr_top_row {
   margin: 20px 40%;
   width: 20%;
+}
+
+.hr_middle{
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  margin: 10px 10px;
+  border-color: lightgrey;
 }
 
 .logo1{
@@ -202,7 +208,9 @@ body{
   font-size: 25px;
   font-weight: 300;
 }
-
+/* .col_2{
+  padding-top: 40px;
+} */
 .mountain{
   width: 300px;
 }
@@ -223,10 +231,14 @@ body{
   margin: 10px 0;
 }
 .col_2 h4{
-  font-size: 30px;
+  font-size: 25px;
 }
 
-.footer_sx, .footer_dx {
-  position: relative;
+.footer_sx{
   float: left;
+  line-height: 100px;
+}
+
+.footer_dx{
+  float: right;
 }
