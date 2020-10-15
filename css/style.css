@@ -20,11 +20,11 @@
 /* UTILITY */
 
 #site_header{
-  height: 550px;
+  height: 500px;
 }
 
 #site_content{
-  height: 550px;
+  height: 600px;
 }
 
 
@@ -173,6 +173,12 @@ body{
   color: gray;
 }
 /* INIZIO MAIN */
+
+.hr_top_row {
+  margin: 20px 40%;
+  width: 20%;
+}
+
 .logo1{
   padding-bottom: 20px;
 }
@@ -195,4 +201,32 @@ body{
   color: #7cbb02;
   font-size: 25px;
   font-weight: 300;
+}
+
+.mountain{
+  width: 300px;
+}
+
+.dx h4{
+  text-align: left;
+  width: 45%;
+}
+.dx p{
+  text-align: left;
+  width: 35%;
+  margin: 10px 0;
+}
+.col_2 a{
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin: 10px 0;
+}
+.col_2 h4{
+  font-size: 30px;
+}
+
+.footer_sx, .footer_dx {
+  position: relative;
+  float: left;
 }
